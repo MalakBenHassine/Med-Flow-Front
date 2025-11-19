@@ -16,13 +16,14 @@ import {
   LogOut,
   ChevronRight,
   UserPlus,
+  Users,
 } from 'lucide-react';
 
 const menuItems = [
   { href: '/doctor/dashboard', label: 'Tableau de bord', icon: LayoutDashboard },
   { href: '/doctor/consultations', label: 'Consultations', icon: Calendar },
   { href: '/doctor/ordonnances', label: 'Ordonnances', icon: FileText },
-  { href: '/doctor/patients', label: 'Patients', icon: UserPlus },
+  { href: '/doctor/patients',    label: 'Mes Patients',    icon: Users },
   { href: '/doctor/traitements', label: 'Traitements', icon: Activity },
 ];
 
